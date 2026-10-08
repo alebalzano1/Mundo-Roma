@@ -5,15 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Fredoka:wght@600;700&display=swap');
 
 :root {
-  /* Paleta Pastel Mundo Roma */
-  --primary: #ff70a6;
-  --primary-hover: #ff5293;
-  --primary-light: #fff0f6;
-  --primary-glow: rgba(255, 112, 166, 0.4);
+  /* Paleta Oficial Mundo Roma (Inspirada en el Logo 3D Rosa Pastel, Neón, Turquesa y Lavanda) */
+  --primary: #ff4785;
+  --primary-hover: #e02d6c;
+  --primary-dark: #be185d;
+  --primary-light: #fff0f5;
+  --primary-glow: rgba(255, 71, 133, 0.35);
   
-  --purple: #8b5cf6;
+  --purple: #9333ea;
   --purple-light: #f5f3ff;
-  --purple-glow: rgba(139, 92, 246, 0.35);
+  --purple-glow: rgba(147, 51, 234, 0.3);
 
   --turquoise: #06b6d4;
   --turquoise-light: #ecfeff;
@@ -21,21 +22,24 @@
   --yellow: #f59e0b;
   --yellow-light: #fef3c7;
 
+  --accent-magenta: #e11d48;
+  --accent-magenta-light: #ffe4e6;
+
   --green-wa: #25d366;
   --green-wa-hover: #20ba5a;
 
   /* Fondos y Superficies */
-  --bg-body: #fcf9fd;
+  --bg-body: #fdfafc;
   --bg-surface: #ffffff;
-  --bg-surface-soft: #f8f4fb;
-  --bg-cloud-gradient: linear-gradient(180deg, #ffdbe9 0%, #f9eef9 50%, #fcf9fd 100%);
+  --bg-surface-soft: #fcf4f8;
+  --bg-cloud-gradient: linear-gradient(180deg, #ffe4ef 0%, #fae8ff 45%, #fdfafc 100%);
   
   /* Textos y Bordes */
-  --text-main: #1f1b2e;
-  --text-muted: #6b677a;
-  --text-light: #9f9baa;
-  --border-light: #f1e7f5;
-  --border-focus: #ffb8d5;
+  --text-main: #1e1b2e;
+  --text-muted: #5e5972;
+  --text-light: #948fa3;
+  --border-light: #f1e4ee;
+  --border-focus: #f472b6;
 
   /* Tipografías */
   --font-heading: 'Outfit', sans-serif;
@@ -50,11 +54,11 @@
   --radius-xl: 40px;
   --radius-full: 9999px;
 
-  /* Sombras Suaves */
-  --shadow-xs: 0 2px 6px rgba(100, 60, 110, 0.04);
-  --shadow-sm: 0 4px 14px rgba(100, 60, 110, 0.06);
-  --shadow-md: 0 10px 28px rgba(100, 60, 110, 0.08);
-  --shadow-lg: 0 18px 40px rgba(100, 60, 110, 0.12);
+  /* Sombras Modernas */
+  --shadow-xs: 0 2px 6px rgba(15, 39, 74, 0.04);
+  --shadow-sm: 0 4px 14px rgba(15, 39, 74, 0.06);
+  --shadow-md: 0 10px 28px rgba(15, 39, 74, 0.09);
+  --shadow-lg: 0 18px 40px rgba(15, 39, 74, 0.12);
   --shadow-glow: 0 8px 25px var(--primary-glow);
   --shadow-purple-glow: 0 8px 25px var(--purple-glow);
 
